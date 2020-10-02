@@ -20,15 +20,15 @@ def a():
 		print("result:     " , operand1 + operand2)
 		a();
 
-	if option == 2:
+	elif option == 2:
 		print("result:     " , operand1 - operand2)
 		a();
 
-	if option == 3:
+	elif option == 3:
 		print("result:     " , operand1 * operand2)
 		a();
 
-	if option == 4:
+	elif option == 4:
 		print("result:     " , operand1 / operand2)
 		a();
 
